@@ -6,6 +6,11 @@
 # Language    python3
 # Status      Accepted
 # Submitted   2026-07-09, 12:12 p.m.
+# Technique   two-pointer-search
+# Time        O(n)
+# Space       O(1)
+# Trick       Exploit the sorted property by moving pointers inward based on the sum comparison to target.
+# Hint        Use the while-else construct to handle the not-found case cleanly.
 # ──────────────────────────────────────────────────
 
 # Enter your code here. Read input from STDIN. Print output to STDOUT
