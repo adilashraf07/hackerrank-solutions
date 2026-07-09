@@ -6,6 +6,11 @@
 # Language    python3
 # Status      Accepted
 # Submitted   2026-07-09, 03:32 p.m.
+# Technique   single-pass-tracking
+# Time        O(n)
+# Space       O(1)
+# Trick       Track the minimum price seen so far and update the maximum profit by calculating the difference at each step.
+# Hint        Use float('inf') for min_price to handle empty lists.
 # ──────────────────────────────────────────────────
 
 # Enter your code here. Read input from STDIN. Print output to STDOUT
