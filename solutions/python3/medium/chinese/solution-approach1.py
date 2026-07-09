@@ -6,6 +6,11 @@
 # Language    python3
 # Status      Accepted
 # Submitted   2026-07-09, 12:59 p.m.
+# Technique   greedy-sort-pairing
+# Time        O(n log n)
+# Space       O(n)
+# Trick       Sort day ascending and night descending to minimize the sum of pairs exceeding the limit x.
+# Hint        Use reverse=True for descending sort.
 # ──────────────────────────────────────────────────
 
 # Enter your code here. Read input from STDIN. Print output to STDOUT
