@@ -6,6 +6,11 @@
 # Language    python3
 # Status      Accepted
 # Submitted   2026-07-09, 12:36 p.m.
+# Technique   greedy-sort-rearrangement
+# Time        O(n log n)
+# Space       O(n)
+# Trick       Minimize the scalar product by pairing the smallest elements of one vector with the largest elements of the other using sorting.
+# Hint        Use sort(reverse=True) to align extremes for the rearrangement inequality.
 # ──────────────────────────────────────────────────
 
 # Enter your code here. Read input from STDIN. Print output to STDOUT
